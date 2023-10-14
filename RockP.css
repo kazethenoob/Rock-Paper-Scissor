@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.choices button{
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 5px;
+    transition: all 0.3s ease-in;
+}
+
+.choices button:hover{
+    background-color: #2980b9;
+    transform: scale(1.2);
+
+}
+
+.game-result{
+    margin-top: 20px;
+    font-size: 24px
+}
